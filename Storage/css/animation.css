@@ -1,0 +1,34 @@
+@keyframes slideLight{
+    0%{
+        transform: translateX(-50px);
+        opacity: 0;
+    
+    }
+     100%{
+        transform: translateX(0px);
+        opacity: 1;
+    
+    }
+}
+@keyframes floatUpDown {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px); 
+  }
+  100% {
+    transform: translateY(0); 
+  }
+}
+@keyframes processanimtion {
+  0%{
+    width: 0%;
+  }
+  80%{
+    width: 85%;
+  }
+  100%{
+    width: 100%;
+  }
+}
